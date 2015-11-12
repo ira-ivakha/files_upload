@@ -10,6 +10,8 @@ input[type="file"]{
 }
 .input-replace{
     position:relative;
+    width:100%;
+    display:block;
 }
 .centered{
     text-align: center;
@@ -19,4 +21,33 @@ input[type="file"]{
 }
 .blue-bg{
     background: #f5f5ff;
+}
+#drop-area{
+    min-width:100%;
+    height:200px;
+    margin-bottom:15px;
+    display:table;
+    text-align: center;
+    border: 1px solid #00ff00;
+    border-radius: 4px;
+}
+#drop-area span{
+    display:table-cell;
+    vertical-align: middle;
+}
+.filelist{
+    display: block;
+    padding:0;
+    margin:0 30px;
+}
+.filelist .fileitem{
+    display:block;
+    list-style: none;
+    padding:10px;
+    border: 1px solid #0000dd;
+    border-radius: 4px;
+    background: #3e55b2; /* Old browsers */
+    color: #ffffff;
+    text-align:center;
+    vertical-align:middle;
 }
