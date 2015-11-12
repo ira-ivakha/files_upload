@@ -1,0 +1,22 @@
+input[type="file"]{
+    opacity:0;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    width:100%;
+    height:100%;
+    z-index:1;
+}
+.input-replace{
+    position:relative;
+}
+.centered{
+    text-align: center;
+    color: #f5f5ff;
+    font-weight: 400;
+    text-shadow: 1px 0px 0px #000033, 0px 1px 0px #000033, -1px 0px 0px #000033, 0px -1px 0px #000099;
+}
+.blue-bg{
+    background: #f5f5ff;
+}
